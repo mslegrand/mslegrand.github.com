@@ -274,11 +274,11 @@ to *d*
 
 ![Changing Two d](/assets/posts/2016-07-29-syncing-shiny-modules/select1.png)
 
-Next we verify the value of tab3 has been updated to *d*
+Next we verify the value of tab three has been updated to *d*
 
 ![Checking three](/assets/posts/2016-07-29-syncing-shiny-modules/select2.png)
 
-And we also verify the value of tab1 has been updated to *d*
+And we also verify the value of tab one has been updated to *d*
 
 ![Checking three](/assets/posts/2016-07-29-syncing-shiny-modules/select3.png)
 
