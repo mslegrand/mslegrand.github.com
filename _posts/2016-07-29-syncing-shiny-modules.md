@@ -52,12 +52,12 @@ file and source it in a file name *global.R*
 ```
 library(shiny)
 
-#a module named toggleModule
-tinyUI <- function(id, input, output) {
+# A module named Tiny
+tinyUI <- function(id, input, output) { # module ui
   ns <- NS(id)
   tagList(radioButtons(ns("RB"), label="To Toggle", choices=letters[1:3]))
 }
-tiny<-function(input,output,session){} # do nothing
+tiny<-function(input,output,session){} # module server (do nothing here)
 
 # The shiny app 
 shinyApp(
@@ -282,7 +282,7 @@ And we also verify the value of tab1 has been updated to *d*
 
 ![Checking three](/assets/posts/2016-07-29-syncing-shiny-modules/select3.png)
 
-One should note, that when the choice of the selector on the current tab changes, that value is propagated to all selectors. 
+One should note, that when the choice of the selector on the current tab changes, that value is propagated to all selectors. This may, or may not be desirable, depending on your particular application.
 
 
 
